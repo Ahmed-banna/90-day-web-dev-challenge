@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - Web Developer</title>
-  </head>
-  <body>
-    <header>
-      <!-- Your name and tagline here -->
-      <h1>Ahmed Banna</h1>
-      <h2>Aspiring Full Stack Developer</h2>
-    </header>
 
-    <nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero-section">
+    <!-- Your name and tagline here -->
+    <h1>Ahmed Banna</h1>
+    <h2>Aspiring Full Stack Developer</h2>
+  </header>
+
+  <nav>
+    <div class="nav">
       <!-- Navigation links here -->
       <ul>
         <li><a href="#About">About</a></li>
@@ -23,79 +27,93 @@
       <ul>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-    <hr>
+    </div>
 
-    <main>
-      <section id="about">
-        <!-- About content -->
-        <p>
-          Hi, I’m Ahmed Banna, an aspiring web developer with a passion for
-          building meaningful digital experiences. I enjoy solving problems,
-          creating intuitive designs, and learning how technology shapes the way
-          we interact online. My background and interests have led me to explore
-          web development as a path where creativity and logic meet.
-        </p>
-        <p>
-          I’m learning web development because I want the ability to turn ideas
-          into functional, accessible websites and applications. Technology is
-          constantly evolving, and I’m excited to grow alongside it. I also
-          enjoy the sense of accomplishment that comes from learning new
-          concepts and applying them to real projects.
-        </p>
-        <p>
-          My current 90-day goal is to build a solid foundation in HTML, CSS,
-          and JavaScript while completing multiple small projects to practice
-          and grow my skills. By the end of this period, I aim to confidently
-          create fully responsive websites and begin working with frameworks to
-          take my development skills even further.
-        </p>
-      </section>
+  </nav>
 
-      <section id="skills">
-        <!-- Skills list -->
-         <h2>What I'm Learning</h2>
-         <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Version Control</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>databases</li>
-         </ol>
-      </section>
+  <main>
+    <section id="about" class="about-section">
+      <!-- About content -->
+      <h2>About me</h2>
+      <p>
+        Hi, I’m Ahmed Banna, an aspiring web developer with a passion for
+        building meaningful digital experiences. I enjoy solving problems,
+        creating intuitive designs, and learning how technology shapes the way
+        we interact online. My background and interests have led me to explore
+        web development as a path where creativity and logic meet.
+      </p>
+      <p>
+        I’m learning web development because I want the ability to turn ideas
+        into functional, accessible websites and applications. Technology is
+        constantly evolving, and I’m excited to grow alongside it. I also
+        enjoy the sense of accomplishment that comes from learning new
+        concepts and applying them to real projects.
+      </p>
+      <p>
+        My current 90-day goal is to build a solid foundation in HTML, CSS,
+        and JavaScript while completing multiple small projects to practice
+        and grow my skills. By the end of this period, I aim to confidently
+        create fully responsive websites and begin working with frameworks to
+        take my development skills even further.
+      </p>
+    </section>
 
-      <section id="contact">
-        <!-- Contact form -->
-         <form>
-         <div>
-            <label>Name</label>
-            <input type="text" name="fullName" placeholder="Enter your full name.....">
-         </div>
-         <br>
-         <div>
-            <label>Email</label>
-            <input type="email" name="email" placeholder="name@something.com">
-         </div>
-         <br>
-         <div>
-            <label>Massage</label>
-            <textarea name="massage" placeholder="type your massage"></textarea>
-         </div>
-         <br>
-         <input type="submit" name="submit" value="submit">
-         </form>
-      </section>
-      <br>
-    </main>
-    <hr>
+    <section id="skills">
+      <!-- Skills list -->
+      <h2>What I'm Learning</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Version Control</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>databases</li>
+      </ol>
+    </section>
 
-    <footer>
-      <!-- Footer info -->
-       <p><strong>Ahmed Banna</strong></p>
-       <p>Built as part of 90-days challenge</p>
-    </footer>
-  </body>
+    <section id="contact">
+      <!-- Contact form -->
+      <h2>Contact me</h2>
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" name="fullName" placeholder="Enter your full name.....">
+        </div>
+        <br>
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" placeholder="name@something.com">
+        </div>
+        <br>
+        <div>
+          <label>Massage</label>
+          <textarea name="massage" placeholder="type your massage"></textarea>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit" class="sub-button">
+      </form>
+    </section>
+
+    <section id="demo">
+      <h2>Flexbox Demo</h2>
+      <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer info -->
+    <p><strong>Ahmed Banna</strong></p>
+    <p>Built as part of 90-days challenge</p>
+  </footer>
+
+  <a class="fix-me" href="">^</a>
+
+</body>
+
 </html>
